@@ -44,7 +44,7 @@ public class Fxml_cuboController implements Initializable {
             for (int col = 0; col < 3; col++) {
                 double x = col * (tileSize + padding);
                 double y = row * (tileSize + padding);
-                gc.setFill(Color.WHITE); // Color de fondo de los cuadros
+                gc.setFill(Color.RED); // Color de fondo de los cuadros
                 gc.fillRect(x, y, tileSize, tileSize);
                 gc.setStroke(Color.BLUE); // Color del borde de los cuadros
                 gc.strokeRect(x, y, tileSize, tileSize);
